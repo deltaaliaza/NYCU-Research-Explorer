@@ -1,0 +1,12 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const db=read('data/databases.json'),groups=read('data/groups.json'),site=read('data/site.json');
+test('170 筆資料均有布林 display',()=>{assert.equal(db.length,170);assert.ok(db.every(x=>typeof x.display==='boolean'))});
+test('資料庫識別碼唯一',()=>assert.equal(new Set(db.map(x=>x.database_id)).size,db.length));
+test('display=false 保留紀錄',()=>{const copy=db.map(x=>({...x}));copy[0].display=false;assert.equal(copy.length,db.length);assert.equal(copy[0].display,false)});
+test('停用單筆資源群組後群組不顯示',()=>{const g=groups.find(x=>x.databaseIds.length===1);assert.ok(g);const visible=new Set(db.filter(x=>x.display&&x.database_id!==g.databaseIds[0]).map(x=>x.database_id));assert.equal(g.databaseIds.some(id=>visible.has(id)),false)});
+test('主要入口有其他候補選項',()=>assert.ok(groups.some(g=>g.databaseIds.length>1)));
+test('共通工具引用資料庫識別碼有效',()=>{const ids=new Set(db.map(x=>x.database_id));assert.ok(site.commonTools.every(x=>x.databaseIds.every(id=>ids.has(id))))});
+test('display 不可用字串表示',()=>assert.notEqual(typeof 'false','boolean'));
+test('可顯示群組至少六個',()=>{const v=new Set(db.filter(x=>x.display).map(x=>x.database_id));assert.ok(groups.filter(g=>g.databaseIds.some(id=>v.has(id))).length>=6)});

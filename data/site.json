@@ -1,0 +1,93 @@
+{
+  "clusters": [
+    "人文、社會與管理",
+    "理工與資訊",
+    "生醫與健康",
+    "半導體、跨域與新興科技",
+    "共同與跨領域學習"
+  ],
+  "commonTools": [
+    {
+      "id": "endnote",
+      "name": "EndNote",
+      "description": "管理書目、PDF與引用格式，協助論文寫作。",
+      "databaseIds": [
+        "NYCU-DB-045"
+      ]
+    },
+    {
+      "id": "access-tools",
+      "name": "BrowZine／Lean Library",
+      "description": "追蹤期刊更新，並快速找到圖書館可用全文。",
+      "databaseIds": [
+        "NYCU-DB-021",
+        "NYCU-DB-082"
+      ]
+    },
+    {
+      "id": "orcid",
+      "name": "ORCID",
+      "description": "建立研究者識別碼，連結研究成果與學術身分。",
+      "databaseIds": [
+        "NYCU-DB-110"
+      ]
+    },
+    {
+      "id": "scite",
+      "name": "Scite",
+      "description": "觀察文獻如何被支持、反駁或引用。",
+      "databaseIds": [
+        "NYCU-DB-133"
+      ]
+    }
+  ],
+  "styles": {
+    "route": {
+      "code": "R01",
+      "name": "路線規劃者",
+      "tagline": "先看清楚路線，再一步一步完成。",
+      "description": "你偏好清楚的步驟、明確的資料類型與可追蹤的研究流程。",
+      "taskTone": "依照三個步驟完成微任務",
+      "boostCategories": [
+        "綜合學術與大型出版平台",
+        "醫學與健康",
+        "法律與爭端解決"
+      ]
+    },
+    "field": {
+      "code": "R02",
+      "name": "證據實作者",
+      "tagline": "先動手試，再從結果修正方向。",
+      "description": "你重視具體資料、案例與實際操作。",
+      "taskTone": "直接進入平台找出一筆可用資料",
+      "boostCategories": [
+        "數據、財經與產業情報",
+        "理工與研究方法",
+        "醫學與健康"
+      ]
+    },
+    "map": {
+      "code": "R03",
+      "name": "關聯建圖者",
+      "tagline": "先理解全貌，再建立研究架構。",
+      "description": "你容易從概念關聯與整體架構進入研究。",
+      "taskTone": "找出一條可以延伸的研究線索",
+      "boostCategories": [
+        "綜合學術與大型出版平台",
+        "臺灣與華文資源"
+      ]
+    },
+    "spark": {
+      "code": "R04",
+      "name": "靈感探勘者",
+      "tagline": "保持開放，從意外線索找到方向。",
+      "description": "你適合從多元資源、案例與意外發現中形成題目。",
+      "taskTone": "探索一項原本沒有想到的資源",
+      "boostCategories": [
+        "臺灣與華文資源",
+        "綜合學術與大型出版平台",
+        "數據、財經與產業情報"
+      ]
+    }
+  }
+}

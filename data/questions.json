@@ -1,0 +1,174 @@
+[
+  {
+    "id": "need",
+    "title": "你現在最想完成什麼？",
+    "help": "先選最接近目前狀況的一項。",
+    "options": [
+      {
+        "value": "literature",
+        "label": "找學術論文與研究文獻",
+        "icon": "文"
+      },
+      {
+        "value": "data",
+        "label": "找公司、金融或統計數據",
+        "icon": "數"
+      },
+      {
+        "value": "law",
+        "label": "找法規、判例或仲裁資料",
+        "icon": "法"
+      },
+      {
+        "value": "patent",
+        "label": "找專利、標準或技術情報",
+        "icon": "技"
+      },
+      {
+        "value": "clinical",
+        "label": "找臨床、藥物或實證資訊",
+        "icon": "醫"
+      },
+      {
+        "value": "books",
+        "label": "找電子書、史料或文化資料",
+        "icon": "史"
+      },
+      {
+        "value": "explore",
+        "label": "還沒有題目，想先探索",
+        "icon": "探"
+      }
+    ]
+  },
+  {
+    "id": "stage",
+    "title": "你目前進行到哪個階段？",
+    "help": "這會影響推薦平台的順序。",
+    "options": [
+      {
+        "value": "topic",
+        "label": "還在尋找題目"
+      },
+      {
+        "value": "background",
+        "label": "建立研究背景"
+      },
+      {
+        "value": "review",
+        "label": "整理文獻回顧"
+      },
+      {
+        "value": "collect",
+        "label": "蒐集資料、案例或證據"
+      },
+      {
+        "value": "analyze",
+        "label": "分析與比較"
+      },
+      {
+        "value": "write",
+        "label": "撰寫論文或報告"
+      }
+    ]
+  },
+  {
+    "id": "material",
+    "title": "你目前最需要哪種研究材料？",
+    "help": "不確定也沒關係。",
+    "options": [
+      {
+        "value": "articles",
+        "label": "期刊論文與研究報告"
+      },
+      {
+        "value": "data",
+        "label": "公司、金融或統計數據"
+      },
+      {
+        "value": "law",
+        "label": "法規、判例與實務文件"
+      },
+      {
+        "value": "patents",
+        "label": "專利、標準與技術文件"
+      },
+      {
+        "value": "clinical",
+        "label": "臨床指引、藥物與實證證據"
+      },
+      {
+        "value": "history",
+        "label": "原始史料、報紙與文化資料"
+      },
+      {
+        "value": "books",
+        "label": "電子書、專書與參考工具"
+      },
+      {
+        "value": "uncertain",
+        "label": "還不確定"
+      }
+    ]
+  },
+  {
+    "id": "approach",
+    "title": "遇到陌生主題時，你比較常怎麼開始？",
+    "help": "沒有標準答案，只要選比較像你的做法。",
+    "options": [
+      {
+        "value": "discuss",
+        "label": "先和同學、老師或工具討論，再開始搜尋"
+      },
+      {
+        "value": "read",
+        "label": "先自己閱讀與整理，再與別人討論"
+      }
+    ]
+  },
+  {
+    "id": "information",
+    "title": "哪種資訊最容易讓你進入狀況？",
+    "help": "選擇你通常會先注意的內容。",
+    "options": [
+      {
+        "value": "concrete",
+        "label": "具體數字、案例、步驟與實際結果"
+      },
+      {
+        "value": "connections",
+        "label": "趨勢、概念、關聯與可能方向"
+      }
+    ]
+  },
+  {
+    "id": "judgement",
+    "title": "比較兩份資料時，你通常先看什麼？",
+    "help": "這題只用來調整推薦說明方式。",
+    "options": [
+      {
+        "value": "method",
+        "label": "方法、證據強度、數據與可比較性"
+      },
+      {
+        "value": "impact",
+        "label": "研究脈絡、使用情境與可能影響"
+      }
+    ]
+  },
+  {
+    "id": "process",
+    "title": "開始查資料時，你偏好哪種方式？",
+    "help": "選擇比較接近你實際習慣的一項。",
+    "options": [
+      {
+        "value": "plan",
+        "label": "先建立清楚步驟，再依序完成"
+      },
+      {
+        "value": "wander",
+        "label": "先自由探索，再逐步整理方向"
+      }
+    ]
+  }
+]

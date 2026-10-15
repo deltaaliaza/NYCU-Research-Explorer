@@ -1,0 +1,525 @@
+[
+  {
+    "id": "humanities-social",
+    "name": "人文藝術與社會學院",
+    "cluster": "人文、社會與管理",
+    "keywords": [
+      "語言",
+      "文學",
+      "傳播",
+      "教育",
+      "社會",
+      "文化",
+      "藝術",
+      "音樂",
+      "建築",
+      "哲學"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "ebsco",
+      "proquest",
+      "taylor-sage",
+      "humanities-press",
+      "taiwan-academic",
+      "taiwan-news",
+      "taiwan-history"
+    ]
+  },
+  {
+    "id": "engineering",
+    "name": "工學院",
+    "cluster": "理工與資訊",
+    "keywords": [
+      "土木",
+      "機械",
+      "材料",
+      "奈米",
+      "環境",
+      "太空",
+      "工程"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "springer",
+      "ieee",
+      "chemistry",
+      "physics-optics",
+      "engineering-standards",
+      "protocols",
+      "patent-tech"
+    ]
+  },
+  {
+    "id": "engineering-bioscience",
+    "name": "工程生物科學學院",
+    "cluster": "半導體、跨域與新興科技",
+    "keywords": [
+      "生物科技",
+      "生物資訊",
+      "系統生物",
+      "分子醫學",
+      "生醫工程",
+      "神經科學"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "springer",
+      "chemistry",
+      "protocols",
+      "pubmed-medline",
+      "clinical-fulltext",
+      "evidence-care"
+    ]
+  },
+  {
+    "id": "dentistry",
+    "name": "牙醫學院",
+    "cluster": "生醫與健康",
+    "keywords": [
+      "牙醫",
+      "口腔",
+      "組織工程",
+      "生技材料"
+    ],
+    "baseGroups": [
+      "pubmed-medline",
+      "clinical-fulltext",
+      "clinical-decision",
+      "evidence-care",
+      "drug-info",
+      "medical-learning",
+      "clarivate"
+    ]
+  },
+  {
+    "id": "life-sciences",
+    "name": "生命科學院",
+    "cluster": "生醫與健康",
+    "keywords": [
+      "生命科學",
+      "基因體",
+      "神經",
+      "微生物",
+      "免疫",
+      "生化",
+      "分子生物",
+      "生醫資訊"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "wiley",
+      "springer",
+      "chemistry",
+      "protocols",
+      "pubmed-medline",
+      "clinical-fulltext",
+      "evidence-care"
+    ]
+  },
+  {
+    "id": "biomedical-engineering",
+    "name": "生物醫學暨工程學院",
+    "cluster": "生醫與健康",
+    "keywords": [
+      "醫學檢驗",
+      "影像",
+      "放射",
+      "物理治療",
+      "輔助科技",
+      "生醫工程",
+      "數位醫療",
+      "生醫光電"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "ieee",
+      "chemistry",
+      "physics-optics",
+      "protocols",
+      "pubmed-medline",
+      "clinical-fulltext",
+      "medical-learning"
+    ]
+  },
+  {
+    "id": "photonics",
+    "name": "光電學院",
+    "cluster": "理工與資訊",
+    "keywords": [
+      "光電",
+      "光學",
+      "照明",
+      "能源光電",
+      "影像",
+      "生醫光電"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "springer",
+      "ieee",
+      "physics-optics",
+      "engineering-standards",
+      "protocols",
+      "patent-tech"
+    ]
+  },
+  {
+    "id": "law",
+    "name": "科技法律學院",
+    "cluster": "人文、社會與管理",
+    "keywords": [
+      "科技法律",
+      "智慧財產",
+      "國際法",
+      "仲裁",
+      "公司法",
+      "專利",
+      "法規"
+    ],
+    "baseGroups": [
+      "westlaw",
+      "heinonline",
+      "arbitration",
+      "taiwan-law",
+      "patent-tech",
+      "clarivate",
+      "taiwan-academic"
+    ]
+  },
+  {
+    "id": "hakka",
+    "name": "客家文化學院",
+    "cluster": "人文、社會與管理",
+    "keywords": [
+      "客家",
+      "族群",
+      "文化",
+      "人文社會",
+      "傳播",
+      "社區"
+    ],
+    "baseGroups": [
+      "ebsco",
+      "proquest",
+      "humanities-press",
+      "taiwan-academic",
+      "taiwan-news",
+      "taiwan-history",
+      "clarivate"
+    ]
+  },
+  {
+    "id": "science",
+    "name": "理學院",
+    "cluster": "理工與資訊",
+    "keywords": [
+      "物理",
+      "數學",
+      "化學",
+      "統計",
+      "科學",
+      "永續化學"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "wiley",
+      "springer",
+      "chemistry",
+      "physics-optics",
+      "math-stat",
+      "protocols",
+      "engineering-standards"
+    ]
+  },
+  {
+    "id": "industry-innovation",
+    "name": "產學創新研究學院",
+    "cluster": "半導體、跨域與新興科技",
+    "keywords": [
+      "前瞻半導體",
+      "智能系統",
+      "產學",
+      "創新",
+      "技術"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "ieee",
+      "wrds",
+      "tej",
+      "taiwan-industry",
+      "patent-tech",
+      "engineering-standards"
+    ]
+  },
+  {
+    "id": "semiconductor",
+    "name": "國際半導體產業學院",
+    "cluster": "半導體、跨域與新興科技",
+    "keywords": [
+      "半導體",
+      "晶片",
+      "微電子",
+      "製程",
+      "材料",
+      "產業"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "ieee",
+      "physics-optics",
+      "chemistry",
+      "engineering-standards",
+      "wrds",
+      "tej",
+      "taiwan-industry",
+      "patent-tech"
+    ]
+  },
+  {
+    "id": "defense",
+    "name": "國防教育與研究總中心",
+    "cluster": "半導體、跨域與新興科技",
+    "keywords": [
+      "國防",
+      "系統工程",
+      "資安",
+      "安全",
+      "科技"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "ieee",
+      "acm",
+      "engineering-standards",
+      "patent-tech",
+      "westlaw",
+      "taiwan-law"
+    ]
+  },
+  {
+    "id": "smart-green",
+    "name": "智慧科學暨綠能學院",
+    "cluster": "半導體、跨域與新興科技",
+    "keywords": [
+      "人工智慧",
+      "智慧計算",
+      "智慧系統",
+      "綠能",
+      "能源",
+      "大數據"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "ieee",
+      "acm",
+      "math-stat",
+      "taiwan-industry",
+      "patent-tech",
+      "engineering-standards"
+    ]
+  },
+  {
+    "id": "electrical-engineering",
+    "name": "電機學院",
+    "cluster": "理工與資訊",
+    "keywords": [
+      "電機",
+      "電子",
+      "電控",
+      "電信",
+      "醫電",
+      "半導體",
+      "光電"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "elsevier",
+      "springer",
+      "ieee",
+      "acm",
+      "physics-optics",
+      "engineering-standards",
+      "protocols",
+      "patent-tech"
+    ]
+  },
+  {
+    "id": "computer-science",
+    "name": "資訊學院",
+    "cluster": "理工與資訊",
+    "keywords": [
+      "資訊工程",
+      "網路",
+      "多媒體",
+      "數據科學",
+      "資安",
+      "人工智慧",
+      "軟體"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "ebsco",
+      "proquest",
+      "ieee",
+      "acm",
+      "math-stat",
+      "wrds",
+      "patent-tech"
+    ]
+  },
+  {
+    "id": "management",
+    "name": "管理學院",
+    "cluster": "人文、社會與管理",
+    "keywords": [
+      "管理",
+      "運輸",
+      "物流",
+      "工業工程",
+      "資訊管理",
+      "財務金融",
+      "科技管理",
+      "企業管理"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "ebsco",
+      "proquest",
+      "wrds",
+      "tej",
+      "taiwan-industry",
+      "patent-tech",
+      "taiwan-academic",
+      "taiwan-news"
+    ]
+  },
+  {
+    "id": "medicine",
+    "name": "醫學院",
+    "cluster": "生醫與健康",
+    "keywords": [
+      "醫學",
+      "臨床",
+      "公共衛生",
+      "醫務管理",
+      "衛生福利",
+      "職業衛生",
+      "生理",
+      "藥理",
+      "腦科學"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "pubmed-medline",
+      "clinical-fulltext",
+      "clinical-decision",
+      "evidence-care",
+      "drug-info",
+      "medical-learning",
+      "protocols"
+    ]
+  },
+  {
+    "id": "pharmaceutical-sciences",
+    "name": "藥物科學院",
+    "cluster": "生醫與健康",
+    "keywords": [
+      "藥學",
+      "生物藥學",
+      "食品安全",
+      "健康風險",
+      "醫藥法規",
+      "藥物"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "chemistry",
+      "pubmed-medline",
+      "clinical-fulltext",
+      "evidence-care",
+      "drug-info",
+      "medical-learning",
+      "protocols"
+    ]
+  },
+  {
+    "id": "nursing",
+    "name": "護理學院",
+    "cluster": "生醫與健康",
+    "keywords": [
+      "護理",
+      "臨床護理",
+      "社區健康",
+      "照護",
+      "實證"
+    ],
+    "baseGroups": [
+      "ebsco",
+      "pubmed-medline",
+      "clinical-fulltext",
+      "clinical-decision",
+      "evidence-care",
+      "nursing-health",
+      "drug-info",
+      "medical-learning"
+    ]
+  },
+  {
+    "id": "general-education",
+    "name": "博雅與共同教育",
+    "cluster": "共同與跨領域學習",
+    "keywords": [
+      "博雅",
+      "共同教育",
+      "百川",
+      "不分系",
+      "師資培育",
+      "語言學習"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "ebsco",
+      "proquest",
+      "taylor-sage",
+      "humanities-press",
+      "taiwan-academic",
+      "taiwan-news",
+      "taiwan-history"
+    ]
+  },
+  {
+    "id": "interdisciplinary",
+    "name": "跨領域與跨院學程",
+    "cluster": "共同與跨領域學習",
+    "keywords": [
+      "跨領域",
+      "跨院",
+      "人工智慧",
+      "機器人",
+      "長期照顧",
+      "電子",
+      "光子"
+    ],
+    "baseGroups": [
+      "clarivate",
+      "ebsco",
+      "proquest",
+      "elsevier",
+      "ieee",
+      "pubmed-medline",
+      "taiwan-academic",
+      "patent-tech"
+    ]
+  }
+]

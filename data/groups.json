@@ -1,0 +1,1223 @@
+[
+  {
+    "id": "clarivate",
+    "number": 1,
+    "category": "綜合學術與大型出版平台",
+    "name": "Clarivate 研究探索與評估",
+    "shortName": "Clarivate",
+    "description": "從跨領域文獻探索、引用關係到期刊與研究績效分析。",
+    "databaseIds": [
+      "NYCU-DB-150",
+      "NYCU-DB-074",
+      "NYCU-DB-048",
+      "NYCU-DB-066",
+      "NYCU-DB-157",
+      "NYCU-DB-158",
+      "NYCU-DB-159",
+      "NYCU-DB-160",
+      "NYCU-DB-161",
+      "NYCU-DB-162",
+      "NYCU-DB-163"
+    ],
+    "primaryDatabaseId": "NYCU-DB-150",
+    "needs": [
+      "literature",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "review",
+      "analyze",
+      "write"
+    ],
+    "materials": [
+      "articles",
+      "uncertain"
+    ],
+    "keywords": [
+      "引用",
+      "影響力",
+      "期刊排名",
+      "研究趨勢",
+      "跨領域"
+    ]
+  },
+  {
+    "id": "ebsco",
+    "number": 2,
+    "category": "綜合學術與大型出版平台",
+    "name": "EBSCOhost 跨領域與專業文獻",
+    "shortName": "EBSCOhost",
+    "description": "整合綜合學術、商管、教育、心理、護理與醫學等專業資料庫。",
+    "databaseIds": [
+      "NYCU-DB-002",
+      "NYCU-DB-012",
+      "NYCU-DB-022",
+      "NYCU-DB-025",
+      "NYCU-DB-040",
+      "NYCU-DB-041",
+      "NYCU-DB-047",
+      "NYCU-DB-055",
+      "NYCU-DB-084",
+      "NYCU-DB-090",
+      "NYCU-DB-104",
+      "NYCU-DB-106",
+      "NYCU-DB-115",
+      "NYCU-DB-122",
+      "NYCU-DB-143"
+    ],
+    "primaryDatabaseId": "NYCU-DB-002",
+    "needs": [
+      "literature",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "review",
+      "collect",
+      "write"
+    ],
+    "materials": [
+      "articles",
+      "uncertain"
+    ],
+    "keywords": [
+      "全文期刊",
+      "教育",
+      "心理",
+      "護理",
+      "商管"
+    ]
+  },
+  {
+    "id": "proquest",
+    "number": 3,
+    "category": "綜合學術與大型出版平台",
+    "name": "ProQuest 論文、學位論文與電子書",
+    "shortName": "ProQuest",
+    "description": "整合學術文獻、國際博碩士論文與電子書。",
+    "databaseIds": [
+      "NYCU-DB-117",
+      "NYCU-DB-118",
+      "NYCU-DB-119",
+      "NYCU-DB-107",
+      "NYCU-DB-185"
+    ],
+    "primaryDatabaseId": "NYCU-DB-117",
+    "needs": [
+      "literature",
+      "books",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "review",
+      "collect",
+      "write"
+    ],
+    "materials": [
+      "articles",
+      "books",
+      "uncertain"
+    ],
+    "keywords": [
+      "博碩士論文",
+      "學位論文",
+      "電子書",
+      "全文"
+    ]
+  },
+  {
+    "id": "elsevier",
+    "number": 4,
+    "category": "綜合學術與大型出版平台",
+    "name": "Elsevier 科學與醫學研究平台",
+    "shortName": "Elsevier",
+    "description": "以 ScienceDirect 為核心，串聯科學、工程、醫學全文與化學資訊。",
+    "databaseIds": [
+      "NYCU-DB-129",
+      "NYCU-DB-121",
+      "NYCU-DB-026"
+    ],
+    "primaryDatabaseId": "NYCU-DB-129",
+    "needs": [
+      "literature",
+      "clinical",
+      "explore"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "clinical",
+      "uncertain"
+    ],
+    "keywords": [
+      "科學",
+      "工程",
+      "醫學",
+      "全文",
+      "化學"
+    ]
+  },
+  {
+    "id": "wiley",
+    "number": 5,
+    "category": "綜合學術與大型出版平台",
+    "name": "Wiley 期刊、實證與研究方法",
+    "shortName": "Wiley",
+    "description": "涵蓋多學科期刊、實證醫學、實驗操作與數位教材。",
+    "databaseIds": [
+      "NYCU-DB-155",
+      "NYCU-DB-027",
+      "NYCU-DB-153",
+      "NYCU-DB-154"
+    ],
+    "primaryDatabaseId": "NYCU-DB-155",
+    "needs": [
+      "literature",
+      "clinical",
+      "explore"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "clinical",
+      "uncertain"
+    ],
+    "keywords": [
+      "期刊",
+      "實證醫學",
+      "實驗方法",
+      "教材"
+    ]
+  },
+  {
+    "id": "springer",
+    "number": 6,
+    "category": "綜合學術與大型出版平台",
+    "name": "Springer Nature 期刊、電子書與實驗方法",
+    "shortName": "Springer Nature",
+    "description": "整合期刊、電子書、生命醫學開放期刊與實驗方法。",
+    "databaseIds": [
+      "NYCU-DB-138",
+      "NYCU-DB-139",
+      "NYCU-DB-017"
+    ],
+    "primaryDatabaseId": "NYCU-DB-138",
+    "needs": [
+      "literature",
+      "books",
+      "clinical",
+      "explore"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "books",
+      "clinical",
+      "uncertain"
+    ],
+    "keywords": [
+      "期刊",
+      "電子書",
+      "實驗方法",
+      "生命醫學"
+    ]
+  },
+  {
+    "id": "taylor-sage",
+    "number": 7,
+    "category": "綜合學術與大型出版平台",
+    "name": "Taylor & Francis／SAGE 社會科學與研究方法",
+    "shortName": "T&F／SAGE",
+    "description": "適合社會科學、人文、教育、管理與研究方法學習。",
+    "databaseIds": [
+      "NYCU-DB-141",
+      "NYCU-DB-142",
+      "NYCU-DB-125",
+      "NYCU-DB-126",
+      "NYCU-DB-127"
+    ],
+    "primaryDatabaseId": "NYCU-DB-141",
+    "needs": [
+      "literature",
+      "books",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "review",
+      "collect",
+      "write"
+    ],
+    "materials": [
+      "articles",
+      "books",
+      "uncertain"
+    ],
+    "keywords": [
+      "社會科學",
+      "研究方法",
+      "案例",
+      "電子書"
+    ]
+  },
+  {
+    "id": "humanities-press",
+    "number": 8,
+    "category": "綜合學術與大型出版平台",
+    "name": "人文與大學出版社平台",
+    "shortName": "人文大學出版社",
+    "description": "匯集 Cambridge、Oxford、JSTOR、Project MUSE、De Gruyter 等資源。",
+    "databaseIds": [
+      "NYCU-DB-023",
+      "NYCU-DB-076",
+      "NYCU-DB-018",
+      "NYCU-DB-116",
+      "NYCU-DB-114",
+      "NYCU-DB-112",
+      "NYCU-DB-113",
+      "NYCU-DB-035",
+      "NYCU-DB-016",
+      "NYCU-DB-019",
+      "NYCU-DB-043",
+      "NYCU-DB-054",
+      "NYCU-DB-069"
+    ],
+    "primaryDatabaseId": "NYCU-DB-076",
+    "needs": [
+      "literature",
+      "books",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "review",
+      "collect",
+      "write"
+    ],
+    "materials": [
+      "articles",
+      "books",
+      "history",
+      "uncertain"
+    ],
+    "keywords": [
+      "人文",
+      "歷史",
+      "哲學",
+      "文學",
+      "藝術"
+    ]
+  },
+  {
+    "id": "ieee",
+    "number": 9,
+    "category": "理工與研究方法",
+    "name": "IEEE Xplore 電機、資訊與工程",
+    "shortName": "IEEE Xplore",
+    "description": "電機、電子、通訊、資訊工程的期刊、會議論文與標準。",
+    "databaseIds": [
+      "NYCU-DB-063"
+    ],
+    "primaryDatabaseId": "NYCU-DB-063",
+    "needs": [
+      "literature",
+      "patent"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "patents"
+    ],
+    "keywords": [
+      "電機",
+      "電子",
+      "通訊",
+      "資訊",
+      "會議論文"
+    ]
+  },
+  {
+    "id": "acm",
+    "number": 10,
+    "category": "理工與研究方法",
+    "name": "ACM 計算機科學研究平台",
+    "shortName": "ACM",
+    "description": "涵蓋計算機科學期刊、會議論文、電子書與專業評論。",
+    "databaseIds": [
+      "NYCU-DB-006",
+      "NYCU-DB-005",
+      "NYCU-DB-031"
+    ],
+    "primaryDatabaseId": "NYCU-DB-006",
+    "needs": [
+      "literature"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "books"
+    ],
+    "keywords": [
+      "計算機科學",
+      "軟體",
+      "人工智慧",
+      "資訊"
+    ]
+  },
+  {
+    "id": "chemistry",
+    "number": 11,
+    "category": "理工與研究方法",
+    "name": "化學研究與物質資訊平台",
+    "shortName": "化學研究平台",
+    "description": "從化學全文、物質、反應與合成路徑到專業參考資料。",
+    "databaseIds": [
+      "NYCU-DB-007",
+      "NYCU-DB-008",
+      "NYCU-DB-132",
+      "NYCU-DB-121",
+      "NYCU-DB-124",
+      "NYCU-DB-093",
+      "NYCU-DB-038"
+    ],
+    "primaryDatabaseId": "NYCU-DB-132",
+    "needs": [
+      "literature",
+      "data",
+      "patent"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "data",
+      "patents"
+    ],
+    "keywords": [
+      "化學",
+      "物質",
+      "反應",
+      "合成",
+      "藥物"
+    ]
+  },
+  {
+    "id": "physics-optics",
+    "number": 12,
+    "category": "理工與研究方法",
+    "name": "物理、光學與光電平台",
+    "shortName": "物理與光電",
+    "description": "涵蓋物理、光學、光電、雷射、影像與相關工程研究。",
+    "databaseIds": [
+      "NYCU-DB-009",
+      "NYCU-DB-070",
+      "NYCU-DB-108",
+      "NYCU-DB-136",
+      "NYCU-DB-137",
+      "NYCU-DB-080",
+      "NYCU-DB-128",
+      "NYCU-DB-130"
+    ],
+    "primaryDatabaseId": "NYCU-DB-070",
+    "needs": [
+      "literature",
+      "patent"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "books",
+      "patents"
+    ],
+    "keywords": [
+      "物理",
+      "光學",
+      "光電",
+      "雷射",
+      "影像"
+    ]
+  },
+  {
+    "id": "math-stat",
+    "number": 13,
+    "category": "理工與研究方法",
+    "name": "數學與統計研究平台",
+    "shortName": "數學與統計",
+    "description": "提供數學文獻評論、專業索引及應用數學期刊。",
+    "databaseIds": [
+      "NYCU-DB-087",
+      "NYCU-DB-088",
+      "NYCU-DB-135"
+    ],
+    "primaryDatabaseId": "NYCU-DB-087",
+    "needs": [
+      "literature",
+      "data"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "articles",
+      "data"
+    ],
+    "keywords": [
+      "數學",
+      "統計",
+      "應用數學",
+      "模型"
+    ]
+  },
+  {
+    "id": "engineering-standards",
+    "number": 14,
+    "category": "理工與研究方法",
+    "name": "工程標準與規範",
+    "shortName": "ASTM Standards",
+    "description": "查找材料、產品、測試方法、系統與工程規範。",
+    "databaseIds": [
+      "NYCU-DB-014"
+    ],
+    "primaryDatabaseId": "NYCU-DB-014",
+    "needs": [
+      "patent",
+      "data"
+    ],
+    "stages": [
+      "collect",
+      "analyze",
+      "write"
+    ],
+    "materials": [
+      "patents",
+      "data"
+    ],
+    "keywords": [
+      "標準",
+      "測試方法",
+      "材料",
+      "規範"
+    ]
+  },
+  {
+    "id": "protocols",
+    "number": 15,
+    "category": "理工與研究方法",
+    "name": "實驗方法與操作流程",
+    "shortName": "Protocols",
+    "description": "以影片或步驟化內容呈現實驗方法與研究操作。",
+    "databaseIds": [
+      "NYCU-DB-075",
+      "NYCU-DB-139",
+      "NYCU-DB-153"
+    ],
+    "primaryDatabaseId": "NYCU-DB-075",
+    "needs": [
+      "clinical",
+      "data"
+    ],
+    "stages": [
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "clinical",
+      "data"
+    ],
+    "keywords": [
+      "實驗方法",
+      "操作步驟",
+      "影片",
+      "可重現"
+    ]
+  },
+  {
+    "id": "wrds",
+    "number": 16,
+    "category": "數據、財經與產業情報",
+    "name": "WRDS 全球商管與財務研究數據",
+    "shortName": "WRDS",
+    "description": "整合公司、會計、股票、選擇權、債券與資本市場歷史數據。",
+    "databaseIds": [
+      "NYCU-DB-152",
+      "NYCU-DB-024",
+      "NYCU-DB-030",
+      "NYCU-DB-109"
+    ],
+    "primaryDatabaseId": "NYCU-DB-152",
+    "needs": [
+      "data"
+    ],
+    "stages": [
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "data"
+    ],
+    "keywords": [
+      "公司財務",
+      "股票",
+      "選擇權",
+      "資本市場",
+      "量化"
+    ]
+  },
+  {
+    "id": "tej",
+    "number": 17,
+    "category": "數據、財經與產業情報",
+    "name": "TEJ 臺灣與亞洲財經數據",
+    "shortName": "TEJ",
+    "description": "提供臺灣、中國與亞洲企業、基金、金融與總體經濟資料。",
+    "databaseIds": [
+      "NYCU-DB-215"
+    ],
+    "primaryDatabaseId": "NYCU-DB-215",
+    "needs": [
+      "data"
+    ],
+    "stages": [
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "data"
+    ],
+    "keywords": [
+      "臺灣企業",
+      "財經",
+      "基金",
+      "總體經濟"
+    ]
+  },
+  {
+    "id": "taiwan-industry",
+    "number": 18,
+    "category": "數據、財經與產業情報",
+    "name": "臺灣產業情報與商業趨勢",
+    "shortName": "臺灣產業情報",
+    "description": "掌握科技產業、商業管理、政策與市場趨勢。",
+    "databaseIds": [
+      "NYCU-DB-073",
+      "NYCU-DB-037",
+      "NYCU-DB-177",
+      "NYCU-DB-186",
+      "NYCU-DB-182",
+      "NYCU-DB-149"
+    ],
+    "primaryDatabaseId": "NYCU-DB-073",
+    "needs": [
+      "data",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "data",
+      "articles",
+      "uncertain"
+    ],
+    "keywords": [
+      "產業",
+      "市場",
+      "科技趨勢",
+      "商業",
+      "政策"
+    ]
+  },
+  {
+    "id": "patent-tech",
+    "number": 19,
+    "category": "數據、財經與產業情報",
+    "name": "專利與技術情報",
+    "shortName": "專利與技術情報",
+    "description": "整合全球與臺灣專利、技術文獻、專利分析及研發趨勢。",
+    "databaseIds": [
+      "NYCU-DB-098",
+      "NYCU-DB-068",
+      "NYCU-DB-169",
+      "NYCU-DB-175"
+    ],
+    "primaryDatabaseId": "NYCU-DB-098",
+    "needs": [
+      "patent",
+      "data"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "patents",
+      "data"
+    ],
+    "keywords": [
+      "專利",
+      "技術趨勢",
+      "競爭情報",
+      "智財"
+    ]
+  },
+  {
+    "id": "pubmed-medline",
+    "number": 20,
+    "category": "醫學與健康",
+    "name": "PubMed／MEDLINE 生物醫學文獻",
+    "shortName": "PubMed／MEDLINE",
+    "description": "生物醫學、臨床、護理、牙科及生命科學文獻核心入口。",
+    "databaseIds": [
+      "NYCU-DB-120",
+      "NYCU-DB-090",
+      "NYCU-DB-091",
+      "NYCU-DB-159"
+    ],
+    "primaryDatabaseId": "NYCU-DB-120",
+    "needs": [
+      "literature",
+      "clinical"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect"
+    ],
+    "materials": [
+      "articles",
+      "clinical"
+    ],
+    "keywords": [
+      "醫學文獻",
+      "臨床",
+      "生命科學",
+      "護理"
+    ]
+  },
+  {
+    "id": "clinical-fulltext",
+    "number": 21,
+    "category": "醫學與健康",
+    "name": "醫學全文、書籍與臨床內容",
+    "shortName": "醫學全文",
+    "description": "提供醫學期刊、書籍、臨床影片、指南與專業內容。",
+    "databaseIds": [
+      "NYCU-DB-026",
+      "NYCU-DB-111",
+      "NYCU-DB-077",
+      "NYCU-DB-089"
+    ],
+    "primaryDatabaseId": "NYCU-DB-026",
+    "needs": [
+      "literature",
+      "clinical",
+      "books"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect"
+    ],
+    "materials": [
+      "articles",
+      "clinical",
+      "books"
+    ],
+    "keywords": [
+      "醫學全文",
+      "臨床影片",
+      "醫學書籍",
+      "指南"
+    ]
+  },
+  {
+    "id": "clinical-decision",
+    "number": 22,
+    "category": "醫學與健康",
+    "name": "臨床決策支援",
+    "shortName": "臨床決策",
+    "description": "快速回答臨床問題，整合實證摘要、診療建議與藥物資訊。",
+    "databaseIds": [
+      "NYCU-DB-148",
+      "NYCU-DB-039"
+    ],
+    "primaryDatabaseId": "NYCU-DB-148",
+    "needs": [
+      "clinical"
+    ],
+    "stages": [
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "clinical"
+    ],
+    "keywords": [
+      "臨床問題",
+      "診斷",
+      "治療",
+      "決策"
+    ]
+  },
+  {
+    "id": "evidence-care",
+    "number": 23,
+    "category": "醫學與健康",
+    "name": "實證醫學與實證照護",
+    "shortName": "實證醫學",
+    "description": "系統性回顧、臨床試驗與實證照護工具。",
+    "databaseIds": [
+      "NYCU-DB-027",
+      "NYCU-DB-145"
+    ],
+    "primaryDatabaseId": "NYCU-DB-027",
+    "needs": [
+      "clinical",
+      "literature"
+    ],
+    "stages": [
+      "review",
+      "analyze",
+      "write"
+    ],
+    "materials": [
+      "clinical",
+      "articles"
+    ],
+    "keywords": [
+      "系統性回顧",
+      "實證醫學",
+      "實證照護"
+    ]
+  },
+  {
+    "id": "nursing-health",
+    "number": 24,
+    "category": "醫學與健康",
+    "name": "護理與相關健康專業",
+    "shortName": "CINAHL",
+    "description": "護理、復健、公共衛生及相關健康專業文獻。",
+    "databaseIds": [
+      "NYCU-DB-025"
+    ],
+    "primaryDatabaseId": "NYCU-DB-025",
+    "needs": [
+      "literature",
+      "clinical"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect"
+    ],
+    "materials": [
+      "articles",
+      "clinical"
+    ],
+    "keywords": [
+      "護理",
+      "復健",
+      "健康照護",
+      "公共衛生"
+    ]
+  },
+  {
+    "id": "drug-info",
+    "number": 25,
+    "category": "醫學與健康",
+    "name": "藥物、毒物與物質資訊",
+    "shortName": "藥物資訊",
+    "description": "查詢藥物作用、交互作用、毒物與化學物質專業資訊。",
+    "databaseIds": [
+      "NYCU-DB-094",
+      "NYCU-DB-093"
+    ],
+    "primaryDatabaseId": "NYCU-DB-094",
+    "needs": [
+      "clinical",
+      "data"
+    ],
+    "stages": [
+      "collect",
+      "analyze"
+    ],
+    "materials": [
+      "clinical",
+      "data"
+    ],
+    "keywords": [
+      "藥物",
+      "交互作用",
+      "毒物",
+      "藥理"
+    ]
+  },
+  {
+    "id": "medical-learning",
+    "number": 26,
+    "category": "醫學與健康",
+    "name": "醫學教學、解剖與視覺化學習",
+    "shortName": "醫學教學",
+    "description": "以教科書、病例、測驗、3D解剖與影片支援醫學學習。",
+    "databaseIds": [
+      "NYCU-DB-003",
+      "NYCU-DB-004",
+      "NYCU-DB-011",
+      "NYCU-DB-036",
+      "NYCU-DB-075",
+      "NYCU-DB-203"
+    ],
+    "primaryDatabaseId": "NYCU-DB-003",
+    "needs": [
+      "clinical",
+      "books",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "collect"
+    ],
+    "materials": [
+      "clinical",
+      "books",
+      "uncertain"
+    ],
+    "keywords": [
+      "醫學教科書",
+      "解剖",
+      "病例",
+      "測驗",
+      "影片"
+    ]
+  },
+  {
+    "id": "westlaw",
+    "number": 27,
+    "category": "法律與爭端解決",
+    "name": "Westlaw Classic 英美與國際法律",
+    "shortName": "Westlaw",
+    "description": "涵蓋多國法規、判例、商法、智財、證券及法律實務文件。",
+    "databaseIds": [
+      "NYCU-DB-151"
+    ],
+    "primaryDatabaseId": "NYCU-DB-151",
+    "needs": [
+      "law"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze",
+      "write"
+    ],
+    "materials": [
+      "law"
+    ],
+    "keywords": [
+      "英美法",
+      "國際法",
+      "判例",
+      "法規",
+      "商法"
+    ]
+  },
+  {
+    "id": "heinonline",
+    "number": 28,
+    "category": "法律與爭端解決",
+    "name": "HeinOnline 法律期刊與法制史",
+    "shortName": "HeinOnline",
+    "description": "法律期刊全文、法學經典、法制史、美國法典及歷史資料。",
+    "databaseIds": [
+      "NYCU-DB-057"
+    ],
+    "primaryDatabaseId": "NYCU-DB-057",
+    "needs": [
+      "law",
+      "literature"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "write"
+    ],
+    "materials": [
+      "law",
+      "articles",
+      "history"
+    ],
+    "keywords": [
+      "法律期刊",
+      "法制史",
+      "美國法",
+      "法學經典"
+    ]
+  },
+  {
+    "id": "arbitration",
+    "number": 29,
+    "category": "法律與爭端解決",
+    "name": "國際仲裁與爭端解決",
+    "shortName": "國際仲裁",
+    "description": "國際商事仲裁、裁決、案例、評析與爭端解決實務。",
+    "databaseIds": [
+      "NYCU-DB-062",
+      "NYCU-DB-078"
+    ],
+    "primaryDatabaseId": "NYCU-DB-078",
+    "needs": [
+      "law"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze",
+      "write"
+    ],
+    "materials": [
+      "law"
+    ],
+    "keywords": [
+      "國際仲裁",
+      "爭端解決",
+      "裁決"
+    ]
+  },
+  {
+    "id": "taiwan-law",
+    "number": 30,
+    "category": "法律與爭端解決",
+    "name": "臺灣法律研究",
+    "shortName": "臺灣法律",
+    "description": "臺灣法規、裁判、法律期刊、行政函釋與實務資料。",
+    "databaseIds": [
+      "NYCU-DB-198",
+      "NYCU-DB-200",
+      "NYCU-DB-081",
+      "NYCU-DB-173"
+    ],
+    "primaryDatabaseId": "NYCU-DB-198",
+    "needs": [
+      "law"
+    ],
+    "stages": [
+      "background",
+      "review",
+      "collect",
+      "analyze",
+      "write"
+    ],
+    "materials": [
+      "law"
+    ],
+    "keywords": [
+      "臺灣法規",
+      "裁判",
+      "法律期刊",
+      "函釋"
+    ]
+  },
+  {
+    "id": "taiwan-academic",
+    "number": 31,
+    "category": "臺灣與華文資源",
+    "name": "臺灣學術期刊、論文與電子書",
+    "shortName": "臺灣學術資源",
+    "description": "整合華藝、HyRead、國家圖書館期刊、臺灣博碩士論文與人社引文。",
+    "databaseIds": [
+      "NYCU-DB-010",
+      "NYCU-DB-072",
+      "NYCU-DB-217",
+      "NYCU-DB-059",
+      "NYCU-DB-060",
+      "NYCU-DB-058",
+      "NYCU-DB-202",
+      "NYCU-DB-184",
+      "NYCU-DB-210",
+      "NYCU-DB-211"
+    ],
+    "primaryDatabaseId": "NYCU-DB-010",
+    "needs": [
+      "literature",
+      "books",
+      "explore"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "review",
+      "collect",
+      "write"
+    ],
+    "materials": [
+      "articles",
+      "books",
+      "uncertain"
+    ],
+    "keywords": [
+      "中文期刊",
+      "臺灣學位論文",
+      "電子書",
+      "人社引文"
+    ]
+  },
+  {
+    "id": "taiwan-news",
+    "number": 32,
+    "category": "臺灣與華文資源",
+    "name": "臺灣新聞、報紙與雜誌",
+    "shortName": "新聞與雜誌",
+    "description": "從當代新聞、報紙影像、商業雜誌到行動閱讀平台。",
+    "databaseIds": [
+      "NYCU-DB-147",
+      "NYCU-DB-208",
+      "NYCU-DB-174",
+      "NYCU-DB-199",
+      "NYCU-DB-213",
+      "NYCU-DB-103",
+      "NYCU-DB-207",
+      "NYCU-DB-186",
+      "NYCU-DB-177",
+      "NYCU-DB-079"
+    ],
+    "primaryDatabaseId": "NYCU-DB-208",
+    "needs": [
+      "explore",
+      "literature"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "collect"
+    ],
+    "materials": [
+      "articles",
+      "history",
+      "uncertain"
+    ],
+    "keywords": [
+      "新聞",
+      "報紙",
+      "雜誌",
+      "輿情",
+      "時事"
+    ]
+  },
+  {
+    "id": "taiwan-history",
+    "number": 33,
+    "category": "臺灣與華文資源",
+    "name": "臺灣史料、古籍與國家級資源",
+    "shortName": "臺灣史料與古籍",
+    "description": "涵蓋古籍、臺灣史料、日治檔案、政府研究及國家級資訊系統。",
+    "databaseIds": [
+      "NYCU-DB-164",
+      "NYCU-DB-165",
+      "NYCU-DB-167",
+      "NYCU-DB-168",
+      "NYCU-DB-170",
+      "NYCU-DB-178",
+      "NYCU-DB-179",
+      "NYCU-DB-180",
+      "NYCU-DB-181",
+      "NYCU-DB-183",
+      "NYCU-DB-187",
+      "NYCU-DB-188",
+      "NYCU-DB-189",
+      "NYCU-DB-190",
+      "NYCU-DB-191",
+      "NYCU-DB-192",
+      "NYCU-DB-193",
+      "NYCU-DB-194",
+      "NYCU-DB-195",
+      "NYCU-DB-196",
+      "NYCU-DB-197",
+      "NYCU-DB-201",
+      "NYCU-DB-203",
+      "NYCU-DB-209",
+      "NYCU-DB-212",
+      "NYCU-DB-214",
+      "NYCU-DB-216",
+      "NYCU-DB-218",
+      "NYCU-DB-219"
+    ],
+    "primaryDatabaseId": "NYCU-DB-194",
+    "needs": [
+      "books",
+      "explore",
+      "literature"
+    ],
+    "stages": [
+      "topic",
+      "background",
+      "review",
+      "collect",
+      "write"
+    ],
+    "materials": [
+      "history",
+      "books",
+      "articles"
+    ],
+    "keywords": [
+      "臺灣史",
+      "日治",
+      "古籍",
+      "檔案",
+      "史料"
+    ]
+  }
+]
