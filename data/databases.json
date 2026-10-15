@@ -3265,7 +3265,7 @@
   },
   {
     "database_id": "NYCU-DB-133",
-    "display": true,
+    "display": false,
     "original_number": 133,
     "name": "Scite-AI",
     "permalink": "https://nycu.primo.exlibrisgroup.com/permalink/886UST_NYCU/gpcbqd/alma991004157939406772",
